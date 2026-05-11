@@ -1,4 +1,3 @@
-# 🌙 The Moonlight Ceremony
 
 > *Undangan Khitan Digital — Cinematic Islamic Luxury*
 
@@ -68,5 +67,5 @@ https://undangan-khitan-fathan.vercel.app?to=Pak+Budi
 ---
 
 <div align="center">
-  <sub>Made with 🌙 for a special moment</sub>
+  <sub>𝐂𝐑𝐄𝐃𝐈𝐓 𝐁𝐘 𝐄𝐕𝐈𝐋𝐕𝐎𝐈𝐃 𝐓𝐄𝐀𝐌</sub>
 </div>
