@@ -37,7 +37,7 @@ Semua config ada di bagian atas `main.js`:
 ```js
 const CFG = {
   eventDate : new Date('2026-06-11T08:00:00+07:00'),
-  heroLines : ['MUHAMMAD', 'RIZKY', 'AL-FATIH'],
+  heroLines : ['MOCH.', 'FATHAN', 'RAFIF HAFIZHAN'],
   address   : 'Nama Gedung, Alamat, Kota',
   waNumber  : '628123456789',
 };
