@@ -30,7 +30,7 @@ function resizeBg() {
 resizeBg();
 window.addEventListener('resize', resizeBg, { passive: true });
 
-// Stars
+
 const STAR_COUNT = isMobile ? 90 : 160;
 const stars = Array.from({ length: STAR_COUNT }, () => ({
   x: Math.random(), y: Math.random(),
@@ -40,7 +40,7 @@ const stars = Array.from({ length: STAR_COUNT }, () => ({
   spd: Math.random() * .007 + .003,
 }));
 
-// Gold floaters
+
 const FLOAT_COUNT = isMobile ? 12 : 22;
 const floaters = Array.from({ length: FLOAT_COUNT }, () => ({
   x: Math.random(), y: Math.random() + .5,
@@ -50,7 +50,7 @@ const floaters = Array.from({ length: FLOAT_COUNT }, () => ({
   vy: -(Math.random() * .00035 + .00008),
 }));
 
-// Fog
+
 const FOG_COUNT = isMobile ? 3 : 5;
 const fogs = Array.from({ length: FOG_COUNT }, () => ({
   x: Math.random(), y: Math.random(),
@@ -63,7 +63,7 @@ const fogs = Array.from({ length: FOG_COUNT }, () => ({
 function bgDraw() {
   bgCtx.clearRect(0, 0, BW, BH);
 
-  // fog
+  
   fogs.forEach(f => {
     f.x += f.vx; f.y += f.vy;
     if (f.x < -.4) f.x = 1.4; if (f.x > 1.4) f.x = -.4;
@@ -76,7 +76,7 @@ function bgDraw() {
     bgCtx.fillStyle = grd; bgCtx.fill();
   });
 
-  // stars
+  
   stars.forEach(s => {
     s.o += s.spd * s.dir;
     if (s.o > .62 || s.o < .05) s.dir *= -1;
@@ -232,7 +232,7 @@ document.getElementById('audBtn').addEventListener('click', () => {
 
   audioMuted = !audioMuted;
 
-  // Fade out / fade in volume
+  // Fade out / in volume
   const target = audioMuted ? 0 : 0.35;
   const step   = audioMuted ? -0.02 : 0.02;
   const fade   = () => {
