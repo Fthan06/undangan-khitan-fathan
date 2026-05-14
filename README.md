@@ -19,6 +19,7 @@ moonlight-ceremony/
         └── ambience.mp3    ← backsound
 ```
 
+
 ---
 
 ## ⚙️ Kustomisasi
@@ -32,10 +33,7 @@ const CFG = {
   address   : 'Nama Gedung, Alamat, Kota',
   waNumber  : '628123456789',
 };
-
----
-
-
+```
 
 ---
 
