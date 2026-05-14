@@ -14,9 +14,9 @@ moonlight-ceremony/
 ├── main.js
 └── assets/
     ├── images/
-    │   └── foto.jpg        ← foto anak
+    │   └── foto.jpg        
     └── audio/
-        └── ambience.mp3    ← backsound
+        └── ambience.mp3
 ```
 
 
