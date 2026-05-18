@@ -368,13 +368,13 @@ a{text-decoration:none;color:inherit}
   position: absolute; inset: 0; pointer-events: none;
   background: linear-gradient(160deg, rgba(200,169,107,.14) 0%, transparent 50%);
 }
-/* corner brackets */
+
 .sl-slide .c { position: absolute; width: 18px; height: 18px; border-color: rgba(200,169,107,.45); border-style: solid; z-index: 3; }
 .sl-slide .c.tl { top: 8px; left: 8px; border-width: 1px 0 0 1px; }
 .sl-slide .c.tr { top: 8px; right: 8px; border-width: 1px 1px 0 0; }
 .sl-slide .c.bl { bottom: 8px; left: 8px; border-width: 0 0 1px 1px; }
 .sl-slide .c.br { bottom: 8px; right: 8px; border-width: 0 1px 1px 0; }
-/* dots */
+
 .sl-dots {
   position: absolute;
   bottom: -22px;
@@ -392,7 +392,7 @@ a{text-decoration:none;color:inherit}
   width: 14px; border-radius: 2px;
   box-shadow: 0 0 6px rgba(200,169,107,.5);
 }
-/* teks */
+
 .pf-text { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
 .pf-tag { font-size: .56rem; letter-spacing: .38em; color: var(--g); text-transform: uppercase; }
 .pf-name {
@@ -476,9 +476,6 @@ a{text-decoration:none;color:inherit}
 .cd-done h2{font-family:var(--disp);font-size:clamp(1.3rem,4vw,2.2rem);font-weight:300;color:var(--g);letter-spacing:.12em;margin-bottom:.9rem}
 .cd-done p{font-size:.64rem;letter-spacing:.2em;color:var(--dim);text-transform:uppercase}
 
-/* ─────────────────────────────────────────────
-   TIMELINE
-───────────────────────────────────────────── */
 #timeline{padding:5rem 1.6rem;position:relative}
 .tl-hdr{text-align:center;margin-bottom:4.5rem}
 .tl-wrap{position:relative;max-width:600px;margin:0 auto}
@@ -521,9 +518,6 @@ a{text-decoration:none;color:inherit}
   .tl-axis,.tl-glow{left:4px}
 }
 
-/* ─────────────────────────────────────────────
-   PAYMENT
-───────────────────────────────────────────── */
 #payment{padding:5rem 1.6rem;display:flex;flex-direction:column;align-items:center;gap:1rem}
 .pay-note{
   max-width:540px;text-align:center;
@@ -577,9 +571,6 @@ a{text-decoration:none;color:inherit}
 .pay-copy:hover,.pay-copy:active{background:rgba(200,169,107,.12);border-color:rgba(200,169,107,.4)}
 .pay-copy svg{width:11px;height:11px;flex-shrink:0}
 
-/* ─────────────────────────────────────────────
-   LOCATION
-───────────────────────────────────────────── */
 #location{
   padding:5rem 1.6rem;
   display:flex;flex-direction:column;align-items:center;gap:1rem;
@@ -627,9 +618,6 @@ a{text-decoration:none;color:inherit}
 .btn-a:hover,.btn-a:active{background:rgba(200,169,107,.1);border-color:rgba(200,169,107,.45);box-shadow:0 0 16px rgba(200,169,107,.1)}
 .btn-a svg{width:11px;height:11px;flex-shrink:0}
 
-/* ─────────────────────────────────────────────
-   WISHES
-───────────────────────────────────────────── */
 #wishes{padding:5rem 1.6rem;position:relative}
 .w-form{
   max-width:540px;margin:0 auto 3rem;
@@ -706,5 +694,5 @@ a{text-decoration:none;color:inherit}
   will-change:opacity;
 }
 
-/* confetti */
+
 .cf{position:fixed;width:5px;height:9px;opacity:0;border-radius:1px;animation:confetti linear forwards;pointer-events:none;z-index:9995}
