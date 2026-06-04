@@ -74,10 +74,13 @@ body {
   font-weight: 300;
 }
 
-.intro-name {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: clamp(2.6rem, 10vw, 4.2rem);
-  font-weight: 300;
+.intro-name{
+  font-family:'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(2.2rem, 8vw, 3.6rem);
+  font-weight:600;
+  line-height:1.05;
+  text-align:center;
+  margin:0;
 }
 
 .section-title {
