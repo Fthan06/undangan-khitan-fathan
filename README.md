@@ -5,24 +5,7 @@
 
 ---
 
-## 📁 Struktur
-
-```
-moonlight-ceremony/
-├── index.html
-├── style.css
-├── main.js
-└── assets/
-    ├── images/
-    │   └── foto.jpg        
-    └── audio/
-        └── ambience.mp3
-```
-
-
----
-
-## ⚙️ Kustomisasi
+## ⚙️ Kustomisasi????
 
 Semua config ada di bagian atas `main.js`:
 
